@@ -91,7 +91,7 @@ readable and independent of which port the element is connected to on the contro
 If specified, names MUST be unique within the controller.
 
 Currently supported Interface Types (Elements):
-- RFID/NFC readers (XRDR1, XRDW2)
+- RFID/NFC readers (XRDR1, XRDW2)S
 - LED controllers (XWC56, XWL56, LightMark, X-Wave, RGBW, MonoLed) 
 - Proximity sensors (XY116, XY146, XY176, XY240, XY241)
 - Button interfaces (XTB4N, XTB4N6, XT4FW6)
@@ -104,7 +104,8 @@ Currently supported Interface Types (Elements):
 - Wired pickup sensors ("DOTWIREPICKUP","XSNAPPER","XDWX16", "XDWX26", "XDWX36", "XDWX36C", "XDBX16", "XDBX26", "XDBX36", "XDBX36C",
 	"XSWX16", "XSWX26", "XSWX36", "XSBX16", "XSBX26", "XSBX36", "XLFWX16", "XLFWX26","XLFWX36", "XLFBX16", "XLFBX26", "XLFBX36"
 	"XLCWX16", "XLCWX26", "XLCWX36","XLCBX16", "XLCBX26", "XLCBX36"
--Wireless pickup sensors ("WIRELESSPICKUP"," XFP3W", "XF-P3B", "XF-P3N")
+- Wireless pickup sensors ("WIRELESSPICKUP"," XFP3W", "XF-P3B", "XF-P3N")
+- DMX controllers ("IX-DM3")
 - And a generic UnknownInterface for unsupported types
 
 Copyright (c) PIXILAB Technologies AB, Sweden (http://pixilab.se). All Rights Reserved.
